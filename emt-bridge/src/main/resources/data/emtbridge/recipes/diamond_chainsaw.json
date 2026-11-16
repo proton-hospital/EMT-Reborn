@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " X ",
+    "XYX"
+  ],
+  "key": {
+    "X": { "item": "minecraft:diamond" },
+    "Y": { "item": "ic2:toolchainsaw" }
+  },
+  "result": { "item": "emt:diamond_chainsaw" }
+}

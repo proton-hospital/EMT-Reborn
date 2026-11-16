@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0"
+
+[[mods]]
+modId="emtbridge"
+version="${version}"
+displayName="Electro-Magic Tools Reborn: Bridge"
+authors="Tombenpotter, TehNut, fewizz (original Electro-Magic Tools); EMT Reborn port"
+description='''1.20.1 half of Electro-Magic Tools Reborn (the 1.7.10 half runs inside MFCL beside Thaumcraft 4). Forge Energy for EMT items, IndustrialCraft 2 machine recipes, Thaumcraft aspects for IC2 items, armour flight and powers, wings rendering, spawns and loot. GPLv3, based on Electro-Magic Tools.'''
+
+[[dependencies.emtbridge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.emtbridge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.emtbridge]]
+    modId="mfcl"
+    mandatory=true
+    versionRange="[1.0.9,)"
+    ordering="AFTER"
+    side="BOTH"

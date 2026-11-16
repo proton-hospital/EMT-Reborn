@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": { "item": "ic2:forgehammer" },
+    "Y": { "type": "forge:partial_nbt", "item": "thaumcraft:item_resource/meta_2", "nbt": "{mfcl_legacy:{metadata:2}}" },
+    "Z": { "item": "minecraft:obsidian" }
+  },
+  "result": { "item": "emt:emt_items/meta_5", "nbt": "{mfcl_legacy:{metadata:5}}" }
+}

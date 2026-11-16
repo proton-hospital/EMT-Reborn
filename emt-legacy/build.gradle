@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'com.gtnewhorizons.retrofuturagradle' version '1.4.9'
+}
+
+group = 'emt'
+version = '1.0.0'
+base { archivesName = 'EMT-Reborn-legacy-1.7.10' }
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+        vendor = JvmVendorSpec.AZUL
+    }
+}
+
+minecraft {
+    mcVersion = '1.7.10'
+    username = 'Developer'
+}
+
+repositories {
+    maven { name = "GTNH Maven"; url = "https://nexus.gtnewhorizons.com/repository/public/" }
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly rfg.deobf(files('libs/Thaumcraft-1.7.10-4.2.3.5.jar'))
+    compileOnly rfg.deobf(files('libs/Baubles-1.7.10-1.0.1.10.jar'))
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.compilerArgs += ['-Xmaxerrs', '2000'] }
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand 'version': project.version }
+}

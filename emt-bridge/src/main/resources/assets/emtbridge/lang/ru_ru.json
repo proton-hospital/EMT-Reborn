@@ -1,0 +1,20 @@
+{
+  "key.categories.emtbridge": "Electro-Magic Tools",
+  "key.emtbridge.mode_switch": "Смена режима (как в IC2)",
+  "key.emtbridge.boost": "Ускорение (как в IC2)",
+  "key.emtbridge.alt": "Alt (как в IC2)",
+  "key.emtbridge.unequip": "Снять крылья / ранец",
+  "message.emtbridge.boots_speed_on": "Ботинки странника: ускорение ВКЛ",
+  "message.emtbridge.boots_speed_off": "Ботинки странника: ускорение ВЫКЛ",
+  "message.emtbridge.hover_on": "Ранец: режим зависания ВКЛ",
+  "message.emtbridge.hover_off": "Ранец: режим зависания ВЫКЛ",
+  "message.emtbridge.attached.1": "Ранец прикреплён к нагруднику",
+  "message.emtbridge.attached.2": "Таумиевые крылья прикреплены",
+  "message.emtbridge.attached.3": "Нано-крылья прикреплены",
+  "message.emtbridge.attached.4": "Квантовые крылья прикреплены",
+  "message.emtbridge.detached.1": "Ранец снят",
+  "message.emtbridge.detached.2": "Таумиевые крылья сняты",
+  "message.emtbridge.detached.3": "Нано-крылья сняты",
+  "message.emtbridge.detached.4": "Квантовые крылья сняты",
+  "entity.emtbridge.archer": "Лучник"
+}

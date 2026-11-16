@@ -1,0 +1,31 @@
+package emt.item.armor.boots;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import emt.util.EMTConfigHandler;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.ItemStack;
+
+public class ItemQuantumBootsTraveller extends ItemElectricBootsTraveller {
+   public ItemQuantumBootsTraveller(int par3, int par4) {
+      super(par3, par4);
+      this.maxCharge = 10000000;
+      this.speedBonus = (float)EMTConfigHandler.quantumBootsSpeed;
+      this.jumpBonus = (float)EMTConfigHandler.quantumBootsJump;
+      this.visDiscount = 5;
+      this.transferLimit = 10000.0;
+      this.energyPerDamage = 1000;
+   }
+
+   @SideOnly(Side.CLIENT)
+   @Override
+   public void registerIcons(IIconRegister iconRegister) {
+      this.itemIcon = iconRegister.registerIcon("emt:armor/boots_quantum");
+   }
+
+   @Override
+   public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
+      return "emt:textures/models/quantumbootstravel.png";
+   }
+}

@@ -1,0 +1,20 @@
+{
+  "key.categories.emtbridge": "Electro-Magic Tools",
+  "key.emtbridge.mode_switch": "Mode switch (IC2 style)",
+  "key.emtbridge.boost": "Boost (IC2 style)",
+  "key.emtbridge.alt": "Alt (IC2 style)",
+  "key.emtbridge.unequip": "Unequip wings / jetpack",
+  "message.emtbridge.boots_speed_on": "Boots of the Traveller: speed ON",
+  "message.emtbridge.boots_speed_off": "Boots of the Traveller: speed OFF",
+  "message.emtbridge.hover_on": "Jetpack hover mode ON",
+  "message.emtbridge.hover_off": "Jetpack hover mode OFF",
+  "message.emtbridge.attached.1": "Jetpack enabled.",
+  "message.emtbridge.attached.2": "Thaumium wings enabled.",
+  "message.emtbridge.attached.3": "Nano wings enabled.",
+  "message.emtbridge.attached.4": "Quantum wings enabled.",
+  "message.emtbridge.detached.1": "Jetpack disabled.",
+  "message.emtbridge.detached.2": "Thaumium wings disabled.",
+  "message.emtbridge.detached.3": "Nano wings disabled.",
+  "message.emtbridge.detached.4": "Quantum wings disabled.",
+  "entity.emtbridge.archer": "Archer"
+}

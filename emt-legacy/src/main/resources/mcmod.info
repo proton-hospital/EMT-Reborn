@@ -1,0 +1,12 @@
+[
+{
+  "modid": "EMT",
+  "name": "Electro-Magic Tools Reborn",
+  "description": "Thaumcraft 4 + IndustrialCraft 2 bridge, revived for Minecraft 1.20.1 through MFCL. Based on Electro-Magic Tools by Tombenpotter, TehNut and fewizz (GPLv3).",
+  "version": "${version}",
+  "mcversion": "1.7.10",
+  "authorList": ["Tombenpotter", "TehNut", "fewizz", "EMT Reborn contributors"],
+  "requiredMods": ["Thaumcraft"],
+  "dependencies": ["Thaumcraft"]
+}
+]
